@@ -1,0 +1,10 @@
+# opam-env.ps1
+Write-Host "Loading OPAM environment for current switch..."
+& opam env | ForEach-Object {
+    if ($_ -match "^\$env:(.+?)=(.+)$") {
+        $key = $matches[1]
+        $val = $matches[2] -replace '"', ''
+        [System.Environment]::SetEnvironmentVariable($key, $val, "Process")
+        Write-Host "Set $key"
+    }
+}

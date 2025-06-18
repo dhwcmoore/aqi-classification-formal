@@ -1,2 +1,2 @@
-(lang dune 3.10)
+(lang dune 3.14)
 (name aqi_classification_formal)

@@ -1,0 +1,9 @@
+_build/
+*.cmo
+*.cmi
+*.cma
+*.cmx
+*.cmxa
+*.o
+*.annot
+aq_check

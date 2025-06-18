@@ -1,0 +1,8 @@
+(executable
+ (name main)
+ (modules aqi_classification main)
+ (public_name aqi_classifier)
+ (libraries zarith)
+ (modes exe)
+ (flags (:standard -w -27)))
+

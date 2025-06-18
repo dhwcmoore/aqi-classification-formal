@@ -1,0 +1,2 @@
+AQI 75 is classified as: Moderate
+AQI 150 is classified as: Unhealthy for Sensitive Groups
